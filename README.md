@@ -3,9 +3,11 @@
 This is a simple web application for understanding purposes.
 
 Command for creating an image using Dockerfile
+
 docker build -t hello-app .
 
 Command to create Docker container
+
 docker run -d -p 8080:8080 -t hello-app
 
 
